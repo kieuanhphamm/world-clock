@@ -20,6 +20,17 @@ function updateTime() {
       .tz("Asia/Ho_Chi_Minh")
       .format("h:mm:ss:SSS [<small>]A[</small>]");
   }
+
+  //Hawaii
+  let hawaiiElement = document.querySelector("#hawaii");
+  if (hawaiiElement) {
+    let hawaiiDateElement = hawaiiElement.querySelector(".date");
+    let hawaiiTimeElement = hawaiiElement.querySelector(".time");
+    hawaiiDateElement.innerHTML = moment().format("MMMM Do YYYY");
+    hawaiiTimeElement.innerHTML = moment()
+      .tz("US/Hawaii")
+      .format("h:mm:ss:SSS [<small>]A[</small>]");
+  }
 }
 
 updateTime();
