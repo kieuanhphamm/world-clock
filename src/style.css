@@ -15,9 +15,13 @@ body {
 }
 
 h1 {
-  color: #ff9494;
   text-align: center;
   font-size: 36px;
+}
+
+.home-page {
+  text-decoration: none;
+  color: #ff9494;
 }
 
 select {
@@ -58,11 +62,6 @@ h2 {
   font-size: 24px;
   line-height: 48px;
   vertical-align: middle;
-}
-
-.home-page {
-  text-decoration: none;
-  color: #ff9494;
 }
 
 footer {

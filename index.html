@@ -11,11 +11,11 @@
   </head>
   <body>
     <div class="container">
-      <h1>World Clock</h1>
+      <h1><a href="/" class="home-page">World Clock</a></h1>
 
       <select id="select-city">
         <option value="">Select a city</option>
-        <option value="local">My current location</option>
+        <option value="local">📍My current location</option>
         <option value="Pacific/Auckland">Auckland</option>
         <option value="Asia/Tokyo">Tokyo</option>
         <option value="Asia/Kuala_Lumpur">Kuala Lumpur</option>
@@ -26,21 +26,28 @@
       <div id="cities">
         <div class="city" id="london">
           <div>
-            <h2>London 🇬🇧</h2>
+            <h2>London</h2>
             <div class="date"></div>
           </div>
           <div class="time"></div>
         </div>
         <div class="city" id="hochiminh-city">
           <div>
-            <h2>Ho Chi Minh City 🇻🇳</h2>
+            <h2>Ho Chi Minh City</h2>
             <div class="date"></div>
           </div>
           <div class="time"></div>
         </div>
         <div class="city" id="hawaii">
           <div>
-            <h2>Hawaii 🇺🇸</h2>
+            <h2>Hawaii</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="selectedcity" id="selected-city">
+          <div>
+            <h2></h2>
             <div class="date"></div>
           </div>
           <div class="time"></div>
@@ -48,7 +55,7 @@
       </div>
     </div>
     <footer>
-      Coded by Kieu Anh Pham and is
+      Coded by <strong>Kieu Anh Pham</strong> and is
       <a
         class="code-source"
         href="https://github.com/kieuanhphamm/world-clock"
